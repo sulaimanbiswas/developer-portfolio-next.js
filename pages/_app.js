@@ -1,4 +1,5 @@
-import Header from "@/components/layouts/Header/Header";
+import Footer from "@/components/Layouts/Footer/Footer";
+import Header from "@/components/Layouts/Header/Header";
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
@@ -21,6 +22,7 @@ export default function App({ Component, pageProps }) {
       >
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </main>
     </>
   );
