@@ -11,6 +11,10 @@ export default function Home() {
       <Head>
         <title>Home - Developer Portfolio</title>
         <meta name="description" content="Developer Portfolio Website" />
+        <meta
+          name="keywords"
+          content="Portfolio, Portfolio Website, Developer Portfolio, Developer Portfolio Website"
+        />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0">
